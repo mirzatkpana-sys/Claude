@@ -23,10 +23,20 @@ Original dark cinematic orchestral underscore, instrumental only, 60 bpm, D mino
 Original tense cinematic montage cue, instrumental only, 100 bpm, D minor. A driving low string ostinato in 16th notes, ticking clock-like percussion, low staccato brass stabs, a pulsing synth bass under the orchestra, mridangam and frame-drum rhythmic layer, rising pitch and intensity every four bars, ending on a sharp unresolved crescendo that cuts off abruptly. Espionage, conspiracy, momentum. No vocals.
 ```
 
-### Cue C — "Return" (0:49–1:00) · 30 s generation
+### Cue C — "Return of the King" (0:49–1:00) · v2, mass reveal · 30 s generation
+
+This version is built for the **mass-hero feel**: a huge male chant choir, Kerala war drums, a slow march, then a brutal brass and sub-bass slam. The melody and chant syllables are original. Don't add any film, composer or song names to the prompt.
+
 ```
-Original epic cinematic hero-reveal cue, instrumental with wordless choir, starts at 70 bpm in D minor. Opens with a very deep sub-bass rumble and a low male wordless choir hum, slow building taiko and large thunder-drum hits, rising string swells and brass crescendo growing for 7 seconds, then a complete sudden silence for half a second, then one enormous full-orchestra plus choir plus sub-drop impact hit in D, then a long ringing orchestral tail with low brass and choir sustaining, fading out. Triumphant, menacing, legendary. No lyrics.
+Original epic Indian mass-hero reveal cue, 80 bpm half-time feel, D minor, aggressive and triumphant. 0-2 s: a very deep sub-bass rumble with a distant ship-horn-like low brass drone and a whispered low male choir breathing. 2-5 s: a slow heavy war-drum march begins, with chenda and thavil drums, giant taiko and floor-shaking bass drums, plus rhythmic iron anvil hits on every beat. 5-8 s: a massive male chant choir of 60 voices shouts short original wordless syllables "HEY... HA... HEY... HA..." on the downbeats, growing louder each bar, with distorted low brass and growling cellos rising in a menacing three-note motif, and the drums doubling in intensity. 8-8.3 s: total dead silence, everything cut. 8.3 s: one colossal impact of full orchestra, chant choir shout, all drums, a sub-bass drop and a metallic boom, in D. 8.3-11 s: a long ringing tail of sustained low brass, a choir "aaah" and fading drum echoes. Raw, dark, heroic, larger than life, cinema-hall power. Instrumental and wordless chant only, no lyrics, no melody resembling any existing film theme.
 ```
+
+**How it lines up with the edit.** Generate it, then slide the cue so its built-in silence (8.0–8.3 s) sits exactly on **0:56.7–0:57.0**, and the impact on **0:57.0**. Its first 2 s then fall at about 0:48.7, right under the ship horn. If the generated silence or impact lands somewhere else, cut the cue at its peak and splice in the separate BOOM one-shot at 0:57.0.
+
+**Layering tips.**
+- Duck the chant choir −6 dB under narrator lines L13 and L14 (0:49.6–0:54.5). Let it hit full level from 0:54.5, under Rocky's close-up.
+- Mute the cue completely under Rocky's "ഇനി… ലോകം." (0:55.4–0:56.7) except the drums at −12 dB, so his voice sits alone over the march.
+- Layer the S32 BOOM and sub-drop on top of the cue's own impact for extra weight.
 
 **Extra one-shots to generate or source (royalty-free):** a big orchestral "BOOM" hit with sub-drop · a riser that reverses into the BOOM · a single deep taiko hit.
 
