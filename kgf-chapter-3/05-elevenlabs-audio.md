@@ -87,7 +87,7 @@ Flow: **"KGF Ch3 Fan Teaser — Voices"** (all takes are on this canvas). Model:
 | Newsreader | KGF3 Teaser – Newsreader (ML) | `0mOnChcqQD3xjv5v3pWn` |
 | Ramika Sen | KGF3 Teaser – Ramika Sen (EN) | `lcSIEtx9IIFGV4clrdCC` |
 | Officer | KGF3 Teaser – Intelligence Officer (EN) | `P7BqWYvOwvc9PvBHsTw5` |
-| Rocky | *not yet chosen* | — |
+| Rocky (heavy rasp) | KGF3 Teaser – Rocky (ML, heavy rasp) | `HMcCf6NDO8CPnjAiTiSL` |
 
 ### Take durations vs. timeline slots (first pass)
 
@@ -107,6 +107,9 @@ Flow: **"KGF Ch3 Fan Teaser — Voices"** (all takes are on this canvas). Model:
 | L12 Officer | 1.0 s | 2.00 | 2.00 | OK (uses the silence window) |
 | L13 Narrator | 2.4 s | 4.16 | 4.00 | **Too long** |
 | L14 Narrator | 2.1 s | 3.36 | 3.44 | **Too long** |
-| L15–L16 Rocky | — | — | — | Waiting for the voice choice |
+| L15 Rocky "ഇനി…" | 0.8 s | 1.12 | 1.12 | OK |
+| L16 Rocky "ലോകം." | 1.0 s | 1.60 | 1.68 | Trim the tail to keep the suck-out |
+
+These slots are from the 60 s plan. The **70 s recut (08-70s-recut.md) gives every line room** and is the current master.
 
 Durations include TTS lead-in and lead-out padding (usually 0.2–0.4 s).

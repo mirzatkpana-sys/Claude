@@ -12,4 +12,6 @@
 | 6 | [06-music-sound-design.md](06-music-sound-design.md) | Three original music cue prompts, music map, 34-item SFX cue sheet |
 | 7 | [07-editing-timeline.md](07-editing-timeline.md) | Second-by-second edit timeline, editor assembly steps, QC checklist |
 
+| — | [08-70s-recut.md](08-70s-recut.md) | **Current master timing (70 s).** Replaces the 60 s timecodes in Parts 1, 2, 6 and 7, to fit the generated voice takes |
+
 **Recommended order:** 3.1 character sheets → 5 voice-over → animatic → 4 video clips → lip-sync → 6 music/SFX → 7 final edit.
