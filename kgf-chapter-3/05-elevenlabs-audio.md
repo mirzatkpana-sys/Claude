@@ -74,3 +74,39 @@ A confident South Indian man in his mid-thirties. Very low, calm, resonant bass-
 | Ramika | High-pass 90 Hz, light compression, small-room reverb at 6% (office). For L11, a phone-line EQ on 30% of the signal only: she's on the phone, but we stay "inside" her room. |
 | Officer | L4: room reverb 10%. L10: **full phone EQ** (300 Hz–3.4 kHz). L12: dry and close, no phone EQ: an intimate whisper. |
 | Rocky | High-pass 50 Hz, +3 dB at 90 Hz, gentle compression, a long cold hall reverb at 12% wet (harbour space), and a 1/8-note delay at −24 dB on "ലോകം." The tail should die *inside* the 0.3 s silence before the BOOM. |
+
+---
+
+## 5.4 Generated assets (ElevenLabs workspace)
+
+Flow: **"KGF Ch3 Fan Teaser — Voices"** (all takes are on this canvas). Model: `eleven_v4`, 2 takes per line.
+
+| Voice | Saved name | voice_id |
+|---|---|---|
+| Narrator (heavy bass) | KGF3 Teaser – Narrator (ML, heavy bass) | `XXw1MI8wlYHKjchE8bKo` |
+| Newsreader | KGF3 Teaser – Newsreader (ML) | `0mOnChcqQD3xjv5v3pWn` |
+| Ramika Sen | KGF3 Teaser – Ramika Sen (EN) | `lcSIEtx9IIFGV4clrdCC` |
+| Officer | KGF3 Teaser – Intelligence Officer (EN) | `P7BqWYvOwvc9PvBHsTw5` |
+| Rocky | *not yet chosen* | — |
+
+### Take durations vs. timeline slots (first pass)
+
+| Line | Slot | Take 1 | Take 2 | Fit |
+|---|---|---|---|---|
+| L1 Newsreader | 4.3 s | 5.84 | 5.76 | Too long: start at 0:04.2 instead |
+| L2 Narrator | 3.4 s | 5.60 | 5.76 | **Too long** |
+| L3 Narrator | 2.2 s | 3.28 | 3.28 | **Too long** |
+| L4 Officer | 1.7 s | 2.48 | 2.56 | Start at 0:18.5, OK |
+| L5 Ramika | 1.2 s | 2.56 | 2.64 | Start at 0:21.3, OK |
+| L6 Ramika | 0.6 s | 1.44 | 1.36 | Lands on the stamp, OK |
+| L7 Narrator | 1.6 s | 2.72 | 2.72 | **Too long** |
+| L8 Narrator | 1.7 s | 2.72 | 2.88 | **Too long** |
+| L9 Narrator | 3.2 s | 4.80 | 4.48 | **Too long** |
+| L10 Officer | 2.5 s | 3.68 | 3.92 | Tight: trim the padding |
+| L11 Ramika | 0.9 s | 1.60 | 1.52 | OK after trimming |
+| L12 Officer | 1.0 s | 2.00 | 2.00 | OK (uses the silence window) |
+| L13 Narrator | 2.4 s | 4.16 | 4.00 | **Too long** |
+| L14 Narrator | 2.1 s | 3.36 | 3.44 | **Too long** |
+| L15–L16 Rocky | — | — | — | Waiting for the voice choice |
+
+Durations include TTS lead-in and lead-out padding (usually 0.2–0.4 s).
